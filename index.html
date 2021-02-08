@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monster</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg container">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Hungry Monster</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Recipes</a>
+                    <a class="nav-link" href="#">Blog</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="col-md-6 m-auto py-5 mt-5">
+            <div class="input-group mb-3">
+                <input id="keyword" type="text" class="form-control" placeholder="Search Meal Name Here.....">
+                <a id="search" class="btn" style="background-color: black; color: white;"><i class="fad fa-search"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="recipe" class="my-5"></div>
+    <div class="container mt-4">
+        <div id="meal" class="Box"> </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

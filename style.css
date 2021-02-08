@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: cornsilk;
+}
+
+nav a{
+    color: black;
+}
+
+
+
+
+
+.mealItem{
+    border: 1px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+.Box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.Box img {
+    width: 100%;
+}
+.Box p {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+
+.recipe {
+    width: 50%;
+    margin: 50px auto;
+    padding-bottom: 30px;
+}
+.recipe img {
+    border-radius: 20px;
+    box-shadow: 0 0 10px #bbbbbb;
+    width: 100%; 
+    height: 400px; 
+    margin-bottom: 20px; 
+}
+.recipe h1, .recipe p{
+    margin-left: 35px;
+}
